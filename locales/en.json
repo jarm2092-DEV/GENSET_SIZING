@@ -1,0 +1,120 @@
+{
+    "nav": {
+        "brand": "MyGensSizing",
+        "howItWorks": "How It Works",
+        "support": "Support",
+        "startSizing": "Start Sizing"
+    },
+    "hero": {
+        "question": "Do you already have a generator?",
+        "subtitle": "MyGensSizing helps you find the right generator for your home or business with our professional sizing tool.",
+        "noGenerator": "I do not have a generator yet",
+        "noGeneratorDesc": "Use our sizing tool to find the perfect generator for your needs.",
+        "hasGenerator": "I already have a generator",
+        "hasGeneratorDesc": "Get support, maintenance tips, or validation for your current setup.",
+        "startSizing": "Start Sizing",
+        "contactSupport": "Contact Support"
+    },
+    "howItWorks": {
+        "title": "How It Works",
+        "description": "MyGensSizing provides a professional sizing and support workflow directly from the web.",
+        "step1": "Answer guided questions",
+        "step1Desc": "Tell us about your property and electrical needs through our intuitive wizard.",
+        "step2": "Upload photos",
+        "step2Desc": "Share photos of nameplates, breakers, and motors for accurate sizing.",
+        "step3": "Get a sizing recommendation",
+        "step3Desc": "Our algorithm calculates the perfect generator size for your requirements.",
+        "step4": "Download your report",
+        "step4Desc": "Get a ZIP with full technical summary, ready for review or approval."
+    },
+    "supportSection": {
+        "title": "Support",
+        "description": "Need help with an existing generator, missing data, or validation? Our team reviews your sizing package and assists you directly.",
+        "cta": "Contact Support"
+    },
+    "sizingTool": {
+        "title": "Generator Sizing Tool",
+        "back": "Back",
+        "methodTitle": "Select Your Method",
+        "visual": "Visual",
+        "visualDesc": "Guided visual approach — ideal for residential and light industrial projects.",
+        "visualResidential": "Residential",
+        "visualIndustrial": "Industrial",
+        "engineering": "Engineering",
+        "engineeringDesc": "Original engineering tool — for technical professionals and complex setups.",
+        "enter": "Enter",
+        "typeTitle": "Select Installation Type",
+        "residentialDesc": "Based on rooms and typical household loads.",
+        "industrialDesc": "Based on running loads and motor starting requirements.",
+        "loadConfig": "Load Configuration",
+        "rooms": "Number of Rooms",
+        "devicesLabel": "Devices",
+        "devices": {
+            "ac": "Air Conditioner",
+            "refrigerator": "Refrigerator",
+            "lighting": "Lighting",
+            "waterPump": "Water Pump"
+        },
+        "ats": "ATS",
+        "runningLoad": "Running Load",
+        "peakLoad": "Peak Load",
+        "recommended": "Recommended Generator",
+        "loadChart": "Load Chart",
+        "downloadReport": "Download Report",
+        "mode": "Mode",
+        "atsOn": "ATS ON",
+        "prev": "PREVIOUS",
+        "home": "HOME",
+        "residentialTitle": "Select Residential Devices",
+        "phaseSelector": {
+            "title": "Phase Selection",
+            "single": "1-Phase (120/240 V)",
+            "three": "3-Phase (208/120 V)"
+        },
+        "steps": {
+            "method": "METHOD",
+            "type": "TYPE",
+            "loads": "LOADS"
+        },
+        "industrial": {
+            "title": "Industrial inputs",
+            "desc": "Simple model: running load + worst single motor start.",
+            "runningLabel": "Running load (kW)",
+            "motorLabel": "Largest motor running power (kW)",
+            "methodLabel": "Motor Starting Method"
+        },
+        "chart": {
+            "excess": "Excess",
+            "available": "Available",
+            "running": "Running"
+        },
+        "info": {
+            "title": "Generator Info",
+            "recommended": "Recommended Generator",
+            "margin": "Margin on Running Percentage",
+            "amps": "Amperes",
+            "atsSwitch": "ATS Switch",
+            "proposal": "Generator Proposal",
+            "standby": "Standby",
+            "prime": "Prime"
+        }
+    },
+    "supportPage": {
+        "title": "Contact Support",
+        "subtitle": "Need help? Fill out the form below and our team will get back to you.",
+        "name": "Name",
+        "namePlaceholder": "Your full name",
+        "email": "Email",
+        "emailPlaceholder": "your@email.com",
+        "message": "Message",
+        "messagePlaceholder": "Describe your issue or question...",
+        "send": "Send",
+        "home": "Home",
+        "success": "Message sent successfully!",
+        "error": "Please fill in all fields."
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "tagline": "Professional generator sizing solutions."
+    }
+}

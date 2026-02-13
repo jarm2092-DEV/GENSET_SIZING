@@ -1,0 +1,104 @@
+.section {
+    position: relative;
+    background: var(--color-bg-secondary);
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-xl);
+    position: relative;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: var(--space-xl) var(--space-md);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    transition: all var(--transition-base);
+    animation: fadeInUp 0.6s ease-out both;
+}
+
+.step:hover {
+    border-color: var(--color-border-glow);
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-6px);
+}
+
+.stepNumber {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-accent-blue), var(--color-accent-blue-light));
+    color: #fff;
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepIcon {
+    width: 48px;
+    height: 48px;
+    color: var(--color-accent-blue-light);
+    margin: var(--space-lg) 0 var(--space-md);
+    transition: transform var(--transition-base);
+}
+
+.step:hover .stepIcon {
+    transform: scale(1.15);
+}
+
+.stepTitle {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+    color: var(--color-text-primary);
+}
+
+.stepDesc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* Conector entre los pasos (línea horizontal) */
+.connector {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .connector {
+        display: block;
+        position: absolute;
+        right: -20px;
+        top: 50%;
+        width: 20px;
+        height: 2px;
+        background: linear-gradient(90deg, var(--color-accent-blue-glow), transparent);
+        z-index: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .steps {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    .steps {
+        grid-template-columns: 1fr;
+    }
+}

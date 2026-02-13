@@ -1,0 +1,120 @@
+{
+    "nav": {
+        "brand": "MyGensSizing",
+        "howItWorks": "Cómo Funciona",
+        "support": "Soporte",
+        "startSizing": "Iniciar Dimensionamiento"
+    },
+    "hero": {
+        "question": "¿Ya tienes un generador?",
+        "subtitle": "MyGensSizing te ayuda a encontrar el generador ideal para tu hogar o negocio con nuestra herramienta profesional de dimensionamiento.",
+        "noGenerator": "Aún no tengo un generador",
+        "noGeneratorDesc": "Usa nuestra herramienta de dimensionamiento para encontrar el generador perfecto.",
+        "hasGenerator": "Ya tengo un generador",
+        "hasGeneratorDesc": "Obtén soporte, consejos de mantenimiento o validación de tu instalación actual.",
+        "startSizing": "Iniciar Dimensionamiento",
+        "contactSupport": "Contactar Soporte"
+    },
+    "howItWorks": {
+        "title": "Cómo Funciona",
+        "description": "MyGensSizing proporciona un flujo profesional de dimensionamiento y soporte directamente desde la web.",
+        "step1": "Responde preguntas guiadas",
+        "step1Desc": "Cuéntanos sobre tu propiedad y necesidades eléctricas a través de nuestro asistente intuitivo.",
+        "step2": "Sube fotos",
+        "step2Desc": "Comparte fotos de placas de datos, breakers y motores para un dimensionamiento preciso.",
+        "step3": "Obtén una recomendación",
+        "step3Desc": "Nuestro algoritmo calcula el tamaño perfecto de generador para tus requerimientos.",
+        "step4": "Descarga tu reporte",
+        "step4Desc": "Obtén un ZIP con el resumen técnico completo, listo para revisión o aprobación."
+    },
+    "supportSection": {
+        "title": "Soporte",
+        "description": "¿Necesitas ayuda con un generador existente, datos faltantes o validación? Nuestro equipo revisa tu paquete de dimensionamiento y te asiste directamente.",
+        "cta": "Contactar Soporte"
+    },
+    "sizingTool": {
+        "title": "Herramienta de Dimensionamiento",
+        "back": "Volver",
+        "methodTitle": "Selecciona tu Método",
+        "visual": "Visual",
+        "visualDesc": "Enfoque visual guiado — ideal para proyectos residenciales e industriales ligeros.",
+        "visualResidential": "Residencial",
+        "visualIndustrial": "Industrial",
+        "engineering": "Ingeniería",
+        "engineeringDesc": "Herramienta de ingeniería original — para profesionales técnicos y configuraciones complejas.",
+        "enter": "Entrar",
+        "typeTitle": "Selecciona Tipo de Instalación",
+        "residentialDesc": "Basado en habitaciones y cargas típicas del hogar.",
+        "industrialDesc": "Basado en cargas continuas y arranque de motores.",
+        "loadConfig": "Configuración de Cargas",
+        "rooms": "Número de Habitaciones",
+        "devicesLabel": "Dispositivos",
+        "devices": {
+            "ac": "Aire Acondicionado",
+            "refrigerator": "Refrigerador",
+            "lighting": "Iluminación",
+            "waterPump": "Bomba de Agua"
+        },
+        "ats": "ATS",
+        "runningLoad": "Carga Continua",
+        "peakLoad": "Carga Pico",
+        "recommended": "Generador Recomendado",
+        "loadChart": "Gráfico de Cargas",
+        "downloadReport": "Descargar Reporte",
+        "mode": "Modo",
+        "atsOn": "ATS ACTIVADO",
+        "prev": "ANTERIOR",
+        "home": "INICIO",
+        "residentialTitle": "Seleccionar Dispositivos Residenciales",
+        "phaseSelector": {
+            "title": "Selección de Fase",
+            "single": "1-Fase (120/240 V)",
+            "three": "3-Fases (208/120 V)"
+        },
+        "steps": {
+            "method": "MÉTODO",
+            "type": "TIPO",
+            "loads": "CARGAS"
+        },
+        "industrial": {
+            "title": "Entradas Industriales",
+            "desc": "Modelo simple: carga continua + peor arranque de motor único.",
+            "runningLabel": "Carga continua (kW)",
+            "motorLabel": "Potencia de motor más grande (kW)",
+            "methodLabel": "Método de Arranque de Motor"
+        },
+        "chart": {
+            "excess": "Exceso",
+            "available": "Disponible",
+            "running": "Continua"
+        },
+        "info": {
+            "title": "Información del Generador",
+            "recommended": "Generador Recomendado",
+            "margin": "Margen sobre carga continua (%)",
+            "amps": "Amperios",
+            "atsSwitch": "Interruptor ATS",
+            "proposal": "Propuesta de Generador",
+            "standby": "Reserva (Standby)",
+            "prime": "Principal (Prime)"
+        }
+    },
+    "supportPage": {
+        "title": "Contactar Soporte",
+        "subtitle": "¿Necesitas ayuda? Completa el formulario y nuestro equipo se comunicará contigo.",
+        "name": "Nombre",
+        "namePlaceholder": "Tu nombre completo",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "tu@correo.com",
+        "message": "Mensaje",
+        "messagePlaceholder": "Describe tu problema o pregunta...",
+        "send": "Enviar",
+        "home": "Inicio",
+        "success": "¡Mensaje enviado exitosamente!",
+        "error": "Por favor completa todos los campos."
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados.",
+        "tagline": "Soluciones profesionales de dimensionamiento de generadores."
+    }
+}
