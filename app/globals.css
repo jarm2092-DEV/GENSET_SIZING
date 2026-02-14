@@ -334,8 +334,17 @@ ol {
 
 @media (max-width: 480px) {
   :root {
-    --font-size-5xl: 1.875rem;
-    --font-size-4xl: 1.5rem;
+    --font-size-5xl: 1.75rem;
+    --font-size-4xl: 1.35rem;
     --font-size-3xl: 1.25rem;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .section-description {
+    font-size: 14px;
+    padding: 0 10px;
   }
 }

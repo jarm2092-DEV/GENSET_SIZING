@@ -43,6 +43,7 @@
         "engineering": "Engineering",
         "engineeringDesc": "Original engineering tool — for technical professionals and complex setups.",
         "enter": "Enter",
+        "goToApp": "Go to app",
         "typeTitle": "Select Installation Type",
         "residentialDesc": "Based on rooms and typical household loads.",
         "industrialDesc": "Based on running loads and motor starting requirements.",

@@ -132,13 +132,43 @@
     margin-top: auto;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll;
+        /* Mejor compatibilidad en móviles */
+        min-height: auto;
+        padding: 120px 0 60px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding: 0 15px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+
+    .bgGlow {
+        width: 400px;
+        height: 400px;
+    }
+}
+
 @media (max-width: 640px) {
     .cards {
         grid-template-columns: 1fr;
-        gap: var(--space-lg);
+        padding: 0 20px;
+        gap: 20px;
     }
 
     .card {
-        padding: var(--space-xl) var(--space-lg);
+        padding: 30px 20px;
+    }
+
+    .cardTitle {
+        font-size: 18px;
     }
 }

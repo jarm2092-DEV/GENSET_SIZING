@@ -47,21 +47,10 @@
     justify-content: center;
 }
 
-.stepIcon {
-    width: 48px;
-    height: 48px;
-    color: var(--color-accent-blue-light);
-    margin: var(--space-lg) 0 var(--space-md);
-    transition: transform var(--transition-base);
-}
-
-.step:hover .stepIcon {
-    transform: scale(1.15);
-}
-
 .stepTitle {
     font-size: var(--font-size-base);
     font-weight: 600;
+    margin-top: var(--space-md);
     margin-bottom: var(--space-sm);
     color: var(--color-text-primary);
 }

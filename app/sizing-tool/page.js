@@ -365,7 +365,7 @@ export default function SizingToolPage() {
                                     <div className={styles.methodIcon}><i className="icon-eng"></i></div>
                                     <h3>{t('sizingTool.engineering')}</h3>
                                     <p>{t('sizingTool.engineeringDesc')}</p>
-                                    <button className={styles.enterBtn}>{t('sizingTool.enter')}</button>
+                                    <button className={styles.enterBtn}>{t('sizingTool.goToApp')}</button>
                                 </div>
                             </div>
                         </div>

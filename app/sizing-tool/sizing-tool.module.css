@@ -793,3 +793,121 @@
     background: rgba(0, 122, 255, 0.1);
     color: #fff;
 }
+
+/* =============================================
+   RESPONSIVE DESIGN - SIZING TOOL
+   ============================================= */
+
+@media (max-width: 1024px) {
+    .loadGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wideCard {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding-top: 70px;
+        /* Ajuste para navbar móvil */
+    }
+
+    .stepHeader {
+        justify-content: flex-start;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 0 5px;
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .stepHeader::-webkit-scrollbar {
+        display: none;
+        /* Chrome/Safari */
+    }
+
+    .stepItem {
+        padding: 12px 15px;
+        font-size: 11px;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .pageTitle {
+        font-size: 22px;
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
+
+    .methodGrid,
+    .loadGrid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .methodCard {
+        padding: 30px 20px;
+    }
+
+    .columnCard {
+        padding: 20px;
+    }
+
+    .infoRows {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .wideCard {
+        grid-column: span 1;
+        padding: 20px;
+    }
+
+    .proposalBanner {
+        padding: 20px;
+    }
+
+    .proposalBanner h2 {
+        font-size: 18px;
+    }
+
+    .bottomNav {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .stepNum {
+        display: none;
+        /* Simplificar en pantallas muy pequeñas */
+    }
+
+    .visualChart {
+        height: 200px;
+    }
+
+    .barTooltip {
+        display: none !important;
+        /* Evitar solapamientos táctiles */
+    }
+
+    .indInputWrapper {
+        padding: 10px 15px;
+    }
+
+    .indInputWrapper input {
+        font-size: 14px;
+    }
+
+    .stepBtn {
+        width: 28px;
+        height: 28px;
+    }
+}
